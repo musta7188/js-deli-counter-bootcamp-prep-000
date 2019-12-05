@@ -11,18 +11,18 @@ return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 
 var number = 1;
 
-function takeANumber(){
+function takeANumber(katzDeli){
 
+number++;
 
-return `Welcome you have ticket number ${number++}`;
+katzDeli.push(number);
+
+return ` Welcome you have ticket numer ${number}`;
+
 
 
 
 }
-
-
-
-
 
 
  function nowServing(katzDeli) {
