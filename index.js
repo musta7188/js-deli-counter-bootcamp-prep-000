@@ -14,8 +14,11 @@ var number = 1;
 function takeANumber(){
 
 
-  return `Welcome you have ticket number ${number}`;
-  
+  console.log `Welcome you have ticket number ${number++}`;
+
+  return number;
+
+
 }
 
 
