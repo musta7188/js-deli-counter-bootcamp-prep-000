@@ -9,6 +9,20 @@ return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 
 }
 
+var number = 1;
+
+function takeANumber(){
+
+
+  return `Welcome you have ticket number ${number}`;
+  
+}
+
+
+
+
+
+
  function nowServing(katzDeli) {
   if (katzDeli.length > 0) {
 
@@ -18,8 +32,6 @@ return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
       return (`There is nobody waiting to be served!`);
   }
 }
-
-
 
 
 function currentLine(katzDeli){
