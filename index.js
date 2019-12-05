@@ -19,9 +19,6 @@ katzDeli.push(number);
 
 return ` Welcome you have ticket numer ${number}`;
 
-
-
-
 }
 
 
